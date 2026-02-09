@@ -2,12 +2,7 @@
 
 **新概念英语在线点读，点句即读、连续播放**
 
-[![GitHub stars](https://img.shields.io/github/stars/luzhenhua/NCE-Flow?style=social)](https://github.com/luzhenhua/NCE-Flow)
-[![GitHub forks](https://img.shields.io/github/forks/luzhenhua/NCE-Flow?style=social)](https://github.com/luzhenhua/NCE-Flow)
-[![GitHub release](https://img.shields.io/github/release/luzhenhua/NCE-Flow)](https://github.com/luzhenhua/NCE-Flow/releases)
-[![License](https://img.shields.io/github/license/luzhenhua/NCE-Flow)](LICENSE)
-
-**在线体验**: https://nce.luzhenhua.cn | **下载完整版**: [Releases](https://github.com/luzhenhua/NCE-Flow/releases)
+**在线体验**: https://nce.929297.xyz 
 
 ## 核心功能
 
@@ -21,39 +16,7 @@
 
 ## 快速开始
 
-### 方式一：Docker 一键部署（最简单）
-
-只需一条命令，无需下载代码：
-
-```bash
-docker run -d -p 8080:80 --name nce-flow --restart unless-stopped luzhenhua/nce-flow:latest
-```
-
-然后访问 `http://localhost:8080` 即可！
-
-**自定义端口：**
-```bash
-docker run -d -p 3000:80 --name nce-flow --restart unless-stopped luzhenhua/nce-flow:latest
-```
-
-详细的 Docker 部署说明请查看 [DOCKER.md](DOCKER.md)
-
-### 方式二：Docker Compose 部署
-
-适合需要自定义配置的场景：
-
-```bash
-# 克隆项目
-git clone https://github.com/luzhenhua/NCE-Flow.git
-cd NCE-Flow
-
-# 启动服务
-docker-compose up -d
-
-# 访问 http://localhost:8080
-```
-
-### 方式三：本地开发服务器
+### 本地开发服务器
 
 1. **下载完整版**：[访问 Releases 页面](https://github.com/luzhenhua/NCE-Flow/releases)
 2. 解压后启动本地服务器：
@@ -92,10 +55,6 @@ NCE-Flow/
 ├── lesson.html      # 课文页
 └── README.md        # 说明文档
 ```
-
-## 版本历史
-
-查看完整更新日志：[Releases](https://github.com/luzhenhua/NCE-Flow/releases)
 
 ### 最新版本
 
@@ -147,23 +106,7 @@ NCE-Flow/
 
 欢迎著作权人对本项目批评指导。如有任何版权问题或影响到您的合法权益，请联系：luzhenhuadev@qq.com，我们将立即处理。
 
-## 致谢
-
-感谢以下项目和个人的贡献：
-
-- **[@reaishijie](https://github.com/reaishijie)** - 提交了 [PR #3](https://github.com/luzhenhua/NCE-Flow/pull/3)，为课文页面增加了播放速度控制按钮及播放速度持久化功能
-- **[@iChochy](https://github.com/iChochy)** - [NCE 项目](https://github.com/iChochy/NCE/) 整理和提供了完整的新概念英语学习资料，包括封面图片、MP3 音频文件和 LRC 字幕文件，为本项目提供了宝贵的基础资源
-
-感谢所有为本项目点赞、提出建议和反馈的朋友们！
-
 ## 许可证
 
 [MIT License](LICENSE)
 
----
-
-如果这个项目对你有帮助，请给个 Star ⭐ 支持一下！
-
-你也可以通过 [爱发电](https://afdian.com/a/luzhenhua) ☕ 请我喝杯咖啡
-
-Made with ❤️ by [Luzhenhua](https://luzhenhua.cn)
